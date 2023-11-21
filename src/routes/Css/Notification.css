@@ -1,0 +1,33 @@
+.notification-container{
+    margin:2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height:auto;
+}
+/* Example CSS styles for message cards */
+.message-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-card {
+  padding: 10px;
+  border-radius: 5px;
+  color: white; /* Text color */
+}
+
+.message-card:nth-child(odd) {
+  background-color: #4d1d96; /* Blue background for odd-indexed cards */
+  
+}
+
+.message-card:nth-child(even) {
+  background-color: #eae4f3; /* Green background for even-indexed cards */
+  color: black;
+}
+
+  

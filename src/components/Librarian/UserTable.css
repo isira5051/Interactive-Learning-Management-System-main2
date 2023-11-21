@@ -1,0 +1,27 @@
+.table-container {
+    width: 100%;
+    max-height: 650px; /* Set a fixed height for the container */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .table-scroll {
+    overflow-x: auto; /* Add a horizontal scrollbar if needed */
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }

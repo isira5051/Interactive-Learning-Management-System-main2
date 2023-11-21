@@ -1,0 +1,63 @@
+/* Set the height of the main pages to 100vh */
+.history-main {
+    height: 100vh;
+}
+.nav-wrap{
+    margin-left: 200px;;
+}
+/* Style the borrowing container */
+.borrowingContainer {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 250px;
+    /* Enable vertical scrolling for overflowing content */
+    overflow-y: auto;
+}
+
+.borrowing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.borrowing-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+}
+
+.borrowing-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+.extension-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.reservation-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.reservation-button:hover {
+    background-color: #820e0e;
+}
+
+/* Hover effect for the "Add Extension" button */
+.extension-button:hover {
+    background-color: #1b6d1f;
+}

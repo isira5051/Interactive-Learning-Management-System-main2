@@ -1,0 +1,107 @@
+.user {
+  display: flex;
+  background-color: #d6dbe7;
+  background-color: #0d0926;
+  
+}
+
+.userContainer {
+   background-color: #f7f9fc; 
+  color: rgb(65, 9, 9);
+  flex: 10;
+  border-radius: 20px; /* Add rounded corners */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  margin: 0px; /* Add margin */
+  padding: 0px; /* Add padding */
+  margin-left:0px;
+  margin-right: 0px;
+  margin-left: 200px; /* Same width as the sidebar */
+  
+  
+}
+.booklist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left:10px;
+  padding-left:1rem;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Two columns with equal width */
+  gap: 20px; /* Gap between grid items */
+  
+}
+.content-title{
+  padding-top:1rem;
+  padding-bottom:5px;
+}
+
+.content-title h1{
+  font-size:4rem;
+}
+
+.content-title p{
+  padding-bottom:2rem;
+  font-size:2rem;
+}
+.grid-item a{
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-container {
+  margin-top:1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+/* Style the label for the dropdown */
+.genre-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+.genre-dropdown {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  align-self: flex-start; /* Align the dropdown to the left within the container */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth hover effect */
+}
+
+/* Add hover effect to the dropdown */
+.genre-dropdown:hover {
+  background-color: #fcfcfc; /* Change background color on hover */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a slight shadow on hover */
+}
+
+/* Style the dropdown options */
+.genre-option {
+  font-size: 14px;
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+/* Add hover effect to the options */
+.genre-option:hover {
+  background-color: #020000; /* Change background color of the option on hover */
+}
+
+.custom-btn{
+  padding: 8px 20px;
+  border-radius:5px;
+  outline: none;
+  border:none;
+  cursor:pointer;
+}

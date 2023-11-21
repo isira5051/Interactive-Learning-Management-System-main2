@@ -1,0 +1,46 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  background-color: #ffffff;;
+}
+.user-navbar {
+  background-color: #0d0926;
+}
+.wrapper {
+  width:100%;
+  padding:20px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between
+  
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border:0.5px solid lightgray;
+  padding:3px;
+  width:300px;
+}
+.search input{
+  outline:none;
+  background:transparent;
+  border:none;
+}
+
+.nav-items {
+  align-items: end;
+  margin-right:20px;
+  width:100%
+  
+}
+
+.nav-item {
+  display:flex;
+  align-items:center;
+  margin-right:10px; /* Adjust this margin as needed */
+  float:right
+}

@@ -1,0 +1,56 @@
+.search-form1 {
+ /* Add some padding for spacing */
+  border-radius: 10px; /* Add border radius to round the corners */
+  display: flex; /* Add flex display to control child elements */
+  justify-content: center; /* Space between icon and input */
+  align-items: center; /* Vertically align the icon and input */
+  padding-bottom: 2.5rem;
+  
+}
+
+.search-form-content {
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-form {
+  height:3rem;
+  background-color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form-element {
+  width:500px;
+  border-radius: 10px;;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  width:500px;
+  border-radius: 10px;;
+  border: none; /* Remove the border */
+  outline: none; /* Remove the outline */
+  padding: 10px; /* Add some padding for spacing */
+  border-radius: 8px; /* Add border radius to round the corners */
+}
+
+.btnClass {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btnClass:hover{
+  background-color: #fcfcfc;
+  
+}
+
+.text-purple {
+  color: purple; /* Change the color of the search icon */
+  margin-right: 10px; /* Add some spacing between the icon and input */
+}

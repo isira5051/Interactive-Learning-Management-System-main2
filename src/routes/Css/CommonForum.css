@@ -1,0 +1,25 @@
+.common-forum-container{
+    margin:2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-left:3rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    min-height:100vh;
+    overflow-y: auto;
+    margin-left:225px;
+    margin-right:25px;
+}
+.forum-headings{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.forum-headings h1{
+    color: #291679;
+}
+.forum-headings p{
+    color:#291679
+}

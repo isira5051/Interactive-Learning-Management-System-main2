@@ -1,0 +1,37 @@
+.admin {
+    display: flex;
+    background-color: #d6dbe7;
+    background-color: #171717;
+  }
+  
+  .homeContainer {
+     background-color: #f7f9fc; 
+    color: rgb(65, 9, 9);
+    flex: 6;
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    margin: 20px; /* Add margin */
+    padding: 20px; /* Add padding */
+    margin-left:0px;
+  }
+  .widgets{
+    padding-top: 10px;
+    display:flex;
+    gap:20px;
+  } .card-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px; 
+    background-color: #f5f4f3;
+    max-width: 580px; 
+    height: 400px;
+    margin-top: 30px; 
+    text-align: center; /* Center text content */
+    gap:20px;
+  }

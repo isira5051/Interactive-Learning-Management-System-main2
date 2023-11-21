@@ -1,0 +1,121 @@
+.bookView-container {
+    margin:2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left:200px;
+    margin-right:15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .likes-count small{
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .row {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    flex-direction: row;
+  }
+.img{
+    flex: 0 0 auto;
+}
+.img img{
+    width:200px;
+    height:300px;
+}
+.details{
+    flex:1;
+    margin-left: 2rem;
+}
+.details h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom:1rem;
+    text-align:center;
+}
+.details h2{
+    font-size: 1.5rem;
+    color:#666;
+    margin-bottom:1rem;
+    text-align:center;
+}
+
+.about-section,
+.about-author-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top:1rem;
+}
+
+.about-label,
+.about-author-label {
+  font-weight: bold;
+  margin-right: 1rem;;
+}
+
+.about-text,
+.about-author-text {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.4;
+} 
+.availability{
+  margin-top:1rem;
+    color:green;
+    font-weight:bold;
+}
+.comment{
+  color:rgb(0, 0, 0);
+  font-weight:bold;
+  margin-top:1rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  
+    .img {
+      margin-bottom: 1rem;
+    }
+  
+    .details {
+      margin-left: 0; /* Remove margin on smaller screens */
+    }
+  
+    .details h1 {
+      text-align: left; /* Adjust text alignment */
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+    }
+  
+    .details h2 {
+      text-align: left; /* Adjust text alignment */
+      font-size: 1.2rem; /* Reduce font size for smaller screens */
+    }
+  
+    .about-label,
+    .about-author-label {
+      margin-right: 0; /* Remove margin for smaller screens */
+    }
+  
+    .about-text,
+    .about-author-text {
+      text-align: left; /* Adjust text alignment */
+      font-size: 14px; /* Reduce font size for smaller screens */
+    }
+  }

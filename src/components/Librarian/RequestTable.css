@@ -1,0 +1,47 @@
+/* Style the entire table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style table header cells */
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #dddddd;
+}
+
+/* Style table data cells */
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #dddddd;
+}
+
+/* Style the buttons container in the "Actions" column */
+td button {
+  width: auto;
+  margin-right: 5px; /* Add some spacing between the buttons */
+  background-color: #1eb04e;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+td button:hover {
+  background-color: #127231;
+}
+
+/* Style the second button differently */
+td button:nth-child(2) {
+  background-color: #ff5733;
+}
+
+/* Change second button color on hover */
+td button:nth-child(2):hover {
+  background-color: #d13f1a;
+}

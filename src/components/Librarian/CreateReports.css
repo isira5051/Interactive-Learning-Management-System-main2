@@ -1,0 +1,22 @@
+.button-container {
+    text-align: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Add some top margin for spacing */
+  }
+  
+  .report-button {
+    background-color: #007bff; /* Button background color */
+    margin-top: 20px;
+    font-size: 20px;
+    width: 400px;
+    color: #fff; /* Button text color */
+    padding: 10px 30px; /* Button padding */
+    margin: 10px 40px; /* Add margin between buttons */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  /* Style button hover effect */
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,77 @@
+.user-container{
+    margin:2rem;
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height:500px;
+    margin-left: 250px;
+}
+.user-image{
+    max-width: 40%;
+}
+.user-image img {
+    max-width: 80%; 
+    max-height:80%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+  }
+  
+  
+  .user-details {
+    
+    margin-top:3rem;
+  }
+  
+  .user-details h1 {
+ 
+    font-size: 24px;
+    margin-bottom: 10px; 
+  }
+  
+  .user-details p {
+    padding:5px;
+    width:100%;
+    margin-bottom: 5px; 
+  }
+  
+  .user-details strong {
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  
+  .user-details p:last-child {
+    margin-bottom: 0; 
+    font-style: italic; 
+  }
+  .profile-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .back{
+    text-decoration: none;
+    margin-top:0.5rem;
+    margin-left:0.5rem;
+  }
+.back .back-btn{
+    margin:1rem;
+    padding:1rem;
+    text-decoration: none;;
+}
+.user-details .left-button{
+    padding-right:10px;
+    margin-right: 10px;
+}
+.custom-btn{
+  padding: 8px 20px;
+  border-radius:5px;
+  outline: none;
+  border:none;
+  cursor:pointer;
+}
